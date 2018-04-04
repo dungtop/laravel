@@ -1,0 +1,302 @@
+@CHARSET "utf-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto Condensed',Roboto sans-serif;
+}
+a {
+	text-decoration: none;
+	color: none;
+}
+
+ul li {
+	list-style: none;
+}
+#header{
+	background-color: #09afdf;
+	height: 45px;
+	clear: both;
+}
+#header_left {
+	margin-left: 100px;
+}
+#header_left ul li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin:8px 2px;
+	background-color: #078cb2;
+	border-radius: 15px;
+	
+}
+#header_left ul li:hover{
+	background-color: #056c8a;
+}
+#header_left ul li i{
+	margin: 6px 8px;
+	color: white;
+}
+#header_right{
+	margin-right: 100px;
+	float: right;
+}
+#header_right ul li{
+	height: 30px;
+	float: right;
+	margin: 8px 3px; 
+	background-color: #078cb2;
+	border-radius: 3px;
+}
+#header_right ul li span{
+	float: right;
+	padding: 2px 10px;
+	font-size: 14px;
+	color: white;
+	line-height: 30px;
+}
+#header_right ul li:hover{
+	background-color: #056c8a;   
+}
+#menu{
+	height: 80px;
+	background-color: #fcfcfc;
+	clear: both;
+	max-width: 1498px;
+	z-index: 1;
+}
+#menu_left {
+	margin-left: 100px;
+	line-height: 80px;
+	float: left;
+}
+#menu_right{
+	margin-right: 100px;
+	line-height: 80px;
+	float: right;
+	font-size: 16px;
+}
+#menu_right ul  a li{
+	color: #403f3f;
+	padding: 30px 15px;
+	display: inline;
+	margin: 0px 3px;
+}
+#menu_right ul li:hover{
+	background-color: white;
+	color: #2dc6f3;
+}
+#search_box{
+	 box-sizing: border-box;
+    border: 3px solid #ed1d24;
+    border-radius: 4px;
+    height: 42px;
+     width: 550px;
+    float: left;
+    margin: 19px 65px;
+    display: block;
+}
+input.search {
+     width: 440px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 16px;
+    padding: 8px 20px 8px 40px;
+    outline:none;
+}
+button.button-search{
+	 width: 100px;
+	box-sizing: border-box;
+    border: 1px solid #ed1d24;
+    font-size: 16px;
+    background-color: #ed1d24;
+    padding: 8px;
+    background-position: 10px 10px; 
+    outline:none;
+    color: white;
+   
+}
+#bg img, #footer img {
+	clear: both;
+	max-width: 100%;
+}
+#bgson{
+	background-color: #fcfcfc;
+	height: 580px;
+}
+#bgson h1{
+	color: #ed1d24;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #908f8f;
+	width: 300px;
+	padding: 20px; 
+}
+#bgson ul{
+	margin-left: 190px;
+}
+#bgson ul li{
+	float: left;
+	margin-right: 140px;
+}
+#bgson ul li:hover{
+	opacity: 0.6;
+	background-color: #565555;
+}
+hr.wapper-hr{
+	width: 1160px;
+	margin:0px 0px 25px 100px;
+	border: 1px solid #f1eded;
+}
+#wapper{
+	background-color: #fcfcfc;
+	padding-bottom: 50px;
+}
+#danhmuc{
+	background-color: white;
+	width: 230px;
+	margin-left: 100px; 
+	float: left;
+}
+#danhmuc ul p{
+	background-color: #555;
+	color: white;height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+#danhmuc ul li:hover,#danhmuc ul li a:hover {
+	background-color: #f7931e;
+	color: white;
+}
+#danhmuc ul li a{
+	color: #615f5f;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 25px;
+}
+#content-main{
+	margin-bottom: 100px;
+	min-height: 480px;
+	margin-left:360px;
+}
+.content{
+	background-color: white;
+	width: 565px;
+	border-radius: 5px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #f3f3f3;
+	padding: 20px  15px;
+  
+}
+#content_img img{
+	width: 90px;
+	height: 115px;
+	float: left;
+}
+.content_text{
+	width: 460px;
+	min-height: 115px;
+	margin-left: 105px;
+}
+#gia{
+	background-image: url('images/gia.png');
+	float: right;
+	padding: 0px 10px 0px 25px;
+	line-height: 32px;
+	color: white;
+	margin-left: 15px;
+}
+.content_text h3{
+	color: #c72929
+}
+p.noidung{
+	font-size: 14px;
+	color: #615f5f;
+	padding-top: 15px;
+	height: 50px;
+}
+p.nguoidang {
+	float: right;
+	color: #afafaf; 
+	font-size: 14px;
+	margin-top: 5px;
+}
+p.nguoidang i{
+	margin-left: 5px;
+}
+p.ngaygio{
+	color: #afafaf; 
+	font-size: 14px;
+	margin-top: 5px;
+}
+p.ngaygio i {
+		margin-right: 5px;
+
+}
+
+#login-form, #sign-up-form {display: none;}
+#login-form .modal-overlay, #sign-up-form .modal-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: rgba(0,0,0,0.5);
+}
+#login-form .login-open, #sign-up-form .sign-up-open {
+	position: fixed;
+	top: 45px;
+	left: 498px;
+	z-index: 11;
+	background: #fff;
+}
+#detail{
+	background-color: #fff;
+	width: 565px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom:50px;
+	min-height: 580px;
+}
+#detail img{
+	width: 180px;
+	height: 220px;
+	margin: 20px;
+	float: left;
+}
+h2.detail-header{
+	color: red;
+	margin: 20px 0px 0px 30px;
+	float: left;
+	width: 300px;
+}
+#detail table{
+	float: left;
+	margin: 20px 0px 0px 30px;
+	
+}
+#detail table tr td {
+	height: 30px;
+	width: 130px;
+	color: red;
+}
+td.detail-td{
+	color: #615f5f !important;
+	
+}
+#detail-text{
+	margin: 270px 20px 30px 20px;
+	
+}
+hr.detail-hr{
+	color:red;
+	clear: both;
+}
+hr.detail-hr-bottom{
+	width: 565px;
+}
