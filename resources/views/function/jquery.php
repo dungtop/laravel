@@ -32,7 +32,7 @@ $(document).ready(function() {
         var p = $(window).scrollTop();
         $(hr).css('position',((p)>start) ? 'fixed' : 'static');
         $(hr).css('top',((p)>start) ? '80px' : '');
-    S });
+    });
 });
  
 
@@ -64,6 +64,15 @@ $(function() {
         $("#sign-up-form").show();
         $("#login-form").hide();
     });
+    $(".dangtinmoi").click(function(e) {
+        e.preventDefault();
+        $("#post-news-form").show();
+    });
+    $(".post-news-close").click(function(e) {
+        e.preventDefault();
+        $("#post-news-form").hide();
+    });
+     
 });
 
 

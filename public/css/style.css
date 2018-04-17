@@ -66,8 +66,7 @@ ul li {
 	z-index: 1;
 }
 #menu_left {
-	margin-left: 100px;
-	line-height: 80px;
+	margin: 12px 0px 0px 100px;
 	float: left;
 }
 #menu_right{
@@ -192,7 +191,7 @@ hr.wapper-hr{
 	padding: 20px  15px;
   
 }
-#content_img img{
+.content_img img{
 	width: 90px;
 	height: 115px;
 	float: left;
@@ -202,8 +201,8 @@ hr.wapper-hr{
 	min-height: 115px;
 	margin-left: 105px;
 }
-#gia{
-	background-image: url('images/gia.png');
+.gia{
+	background-image: url('../images/gia.png');
 	float: right;
 	padding: 0px 10px 0px 25px;
 	line-height: 32px;
@@ -238,8 +237,8 @@ p.ngaygio i {
 
 }
 
-#login-form, #sign-up-form {display: none;}
-#login-form .modal-overlay, #sign-up-form .modal-overlay {
+#login-form, #sign-up-form, #post-news-form{display: none;}
+#login-form .modal-overlay, #sign-up-form .modal-overlay,#post-news-form .modal-overlay {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -255,13 +254,18 @@ p.ngaygio i {
 	z-index: 11;
 	background: #fff;
 }
+#post-news-form .#post-news-open {
+	position: fixed;
+	top: 45px;
+	left: 498px;
+	z-index: 12;
+	background: #fff;
+}
 #detail{
 	background-color: #fff;
 	width: 565px;
 	border: 1px solid white;
 	border-radius: 5px;
-	margin-bottom:50px;
-	min-height: 580px;
 }
 #detail img{
 	width: 180px;
@@ -270,7 +274,7 @@ p.ngaygio i {
 	float: left;
 }
 h2.detail-header{
-	color: red;
+	color: #b22222;
 	margin: 20px 0px 0px 30px;
 	float: left;
 	width: 300px;
@@ -283,20 +287,119 @@ h2.detail-header{
 #detail table tr td {
 	height: 30px;
 	width: 130px;
-	color: red;
+	color: rebeccapurple;
 }
 td.detail-td{
-	color: #615f5f !important;
-	
+	color: #c3c3c3 !important;
+	font-size: 14px;
 }
 #detail-text{
 	margin: 270px 20px 30px 20px;
+	color: #6d6d6d;
+	font-size: 14px;
 	
 }
-hr.detail-hr{
-	color:red;
-	clear: both;
+.comment{
+	margin:20px 20px 50px 20px;
+	min-height: 100px;
+	padding-bottom: 20px;
 }
-hr.detail-hr-bottom{
-	width: 565px;
+textarea.comment-textarea{
+	border: 1px solid #bdbbbb;
+	width: 525px;
+	outline: none;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 14px;
+}
+.comment button{
+	float: right;
+	padding: 5px 15px;
+	margin-top: 10px;
+	color: #fff;
+	background-color: #a7a6a6;
+	border-radius: 3px;
+	border: none;
+}
+.comment button:hover{
+	background-color: #929191;
+	cursor: pointer;
+}
+.comment-text{
+	font-size: 14px;
+	margin: 70px 0px 20px 0px;
+	color: #6d6d6d;
+}
+.comment-text-son{
+	background-color: #fcfcfc;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+p.comment-user{
+	color: #365899;
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+}
+p.comment-time{
+	float: right;
+	margin-top: 10px;
+	color: #c3c3c3;
+}
+#dangtin{
+	background-color: #f7f7f7;
+	width: 800px;
+	margin:10px auto;
+	border-radius: 5px;"
+}
+#dangtin form{
+	width: 600px;
+	margin:50px auto;
+	padding-bottom: 100px;
+
+}
+#dangtin  h1.dangtin{
+	background-color: #2dc6f3;
+	height: 80px;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	line-height: 80px;
+	margin-bottom: 50px;
+}
+button.button-dangtin{
+	border: none;
+	float: right;
+	outline: none;
+	background-color: #929292;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 3px;
+}
+#dangtin form ul li{
+	margin: 20px 0px;
+	height: 35px;
+}
+.dangtin-input{
+	width: 450px;
+	height: 35px;
+	float: right;
+	padding-left: 20px;
+	outline: none;
+}
+.dangtin-select{
+	width: 475px;
+	height: 39px;
+	float: right;
+	padding-left: 20px;
+	outline: none;
+}
+.dangtin-area {
+	height: 175px;
+	width: 452px; 
+	float: right;
+	padding: 10px 0px 0px 20px;
+	resize: none;
+	outline: none;
 }
